@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Montserrat', sans-serif;
+}
+
+body {
+	background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
+	background-size: cover;
+}
+
+
+#cf-menu {
+	margin-bottom: 0;
+	background: black;
+	border: 0;
+	border-radius: 0;
+	color: #fff !important;
+	padding: .5% 0;
+	transition: all 0.5s;
+}
+
+#cf-menu.navbar-default .navbar-nav>li>a {
+	color: #C5C5C5;
+	text-transform: uppercase;
+	font-size: 12px;
+	font-weight: 700;
+	letter-spacing: 1px;
+}
+
+#cf-menu.navbar-default .navbar-nav>li>a .act {
+	color: green;
+}
+
+#cf-menu.navbar-default .navbar-nav>li>a:hover,
+#cf-menu.navbar-default .navbar-nav>li>a:focus {
+	color: #72afd3;
+	background-color: transparent;
+}
+
+a.navbar-brand.logo,
+a.navbar-brand.logo:hover {
+	color: #37ecba;
+	font-size: 1.5em;
+}
+
+.service-block {
+	padding: 60px 0;
+	margin-bottom: 30px;
+}
+
+.service-content {
+	text-align: center;
+}
+
+.outline {
+	border: 1px solid white;
+}
+
+.serviceContent {
+	text-align: center;
+}
+
+.insideService {
+	padding: 40px;
+}
+
+.btn {
+	font-family: 'Oswald', sans-serif;
+	font-size: 14px;
+	text-transform: uppercase;
+	font-weight: 400;
+	padding: 10px 14px;
+	letter-spacing: 2px;
+	border-radius: 0px;
+	line-height: 1.6;
+	-webkit-transition: all 0.5s;
+	-moz-transition: all 0.5s;
+	transition: all 0.5s;
+	word-wrap: break-word;
+	white-space: normal !important;
+}
+
+.btn-default {
+	color: #1e1e1f;
+	background-color: #c5f016;
+	border: none;
+}
+
+.bg-default {
+	background-color: #e7e7e7 !important;
+}
+
+.space-small {
+	padding-top: 70px;
+	padding-bottom: 70px;
+}
+
+.space-medium {
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+.space-large {
+	padding-top: 140px;
+	padding-bottom: 140px;
+}
+
+.space-ex-large {
+	padding-top: 160px;
+	padding-bottom: 160px;
+}
+
+.content {
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+.btn-white {
+	color: #202224;
+	background: #fff;
+	border: 1px solid #fff;
+	border: none;
+	border-radius: 0;
+}
+
+.btn-white:hover {
+	background-color: #000;
+	color: #fff;
+	border: 1px solid #000;
+}
+
+.btn-white.focus,
+.btn-white:focus {
+	background-color: #000;
+	color: #fff;
+}
+
+.title {
+	color: white;
+}
+
+#myVideo {
+	right: 0;
+	bottom: 0;
+	min-width: 100%;
+	min-height: 120px;
+}
+
+
+.mainBox {
+	padding: 150px 0;
+}
