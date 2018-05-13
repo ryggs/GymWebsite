@@ -153,3 +153,7 @@ a.navbar-brand.logo:hover {
 .mainBox {
 	padding: 150px 0;
 }
+.about h1{
+	font-size: 5em;
+	text-align: center;
+}
