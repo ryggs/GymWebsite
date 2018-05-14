@@ -153,7 +153,81 @@ a.navbar-brand.logo:hover {
 .mainBox {
 	padding: 150px 0;
 }
+.about{
+	background-color: black;
+	padding-top: 50px;
+}
+.about p{
+	color: white;
+	line-height: 30px;
+	padding: 10% 0;
+}
 .about h1{
 	font-size: 5em;
 	text-align: center;
+	color: white;
+}
+.joinContent img:hover{
+	opacity: 1;
+}
+.joinContent a{
+	position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+    -ms-transform: translate(-50%, -20%);
+    background-color: grey;
+    color: white;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    text-decoration: none !important;
+    border-radius: 5px;
+    text-align: center;
+}
+.joinContent a:hover{
+	background-color: #50f442;
+	padding: 20px 40px;
+	transition: padding .5s ease-in-out;
+}
+.formContent{
+	border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+}
+input[type=text], input[type=email], input[type=tel], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+}
+
+input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 50px;
+    border: none;
+    border-radius: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+.contactBox{
+	padding: 40px;
+	background-color: rgba(0,0,0,0.5);
+	margin-top: 50px;
+}
+.contactBox h1, .contactBox p{
+	color: white;
+}
+div.formRow{
+	display: -webkit-flex;    
+	display: flex;    
+	-webkit-flex-flow: row wrap;    
+	flex-flow: row wrap;    
 }
