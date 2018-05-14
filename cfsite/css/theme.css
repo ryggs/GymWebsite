@@ -1,0 +1,621 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  font-family: 'ProximaNova-Regular', 'Helvetica Neue', Arial, sans-serif;
+}
+a {
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+  color: #37ecba;
+}
+a:hover,
+a:focus {
+  color: #37ecba;
+}
+b{
+  font-family: 'ProximaNova-Bold';
+  font-weight: normal;
+}
+h1,
+h2,
+h3,
+h4 {
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+section {
+  padding: 100px 0;
+}
+
+
+a.navbar-brand.logo,
+a.navbar-brand.logo:hover {
+  color: #37ecba;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+}
+
+.navbar-default .navbar-nav>li>a {
+color: lightgray;
+}
+
+.navbar-default {
+  background-color: white;
+  border: 0px;
+  font-family: 'Montserrat', sans-serif;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.navbar-default .navbar-header .navbar-brand {
+  color: #37ecba;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin-left: 15px;
+}
+.navbar-default .navbar-header .navbar-brand:hover,
+.navbar-default .navbar-header .navbar-brand:focus {
+  color: #37ecba;
+}
+.navbar-default .navbar-header .navbar-toggle {
+  font-weight: 700;
+  font-size: 12px;
+  color: white;
+  text-transform: uppercase;
+}
+.navbar-default .nav > li > a,
+.navbar-default .nav > li > a:focus {
+  text-transform: uppercase;
+  font-family: 'ProximaNova-Bold';
+  font-size: 14px;
+  text-align: center;
+}
+.container-fluid>.navbar-collapse, .container-fluid>.navbar-header{
+  background-color: black;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover{
+  color: white;
+  background-color: rgba(27, 29, 37, 0.88);
+}
+
+.navbar-default .nav > li > a:hover,
+.navbar-default .nav > li > a:focus:hover {
+  color: blue;
+}
+.navbar-default .nav > li.active > a,
+.navbar-default .nav > li.active > a:focus {
+  color: #37ecba !important;
+  background-color: transparent;
+}
+.navbar-default .nav > li.active > a:hover,
+.navbar-default .nav > li.active > a:focus:hover {
+  background-color: transparent;
+}
+@media (min-width: 768px) {
+  .navbar-default {
+    background-color: #1c1e26;
+    border-color: rgba(255, 255, 255, 0.3);
+  }
+  .navbar-default .navbar-header .navbar-brand {
+    color: rgba(255, 255, 255, 0.7);
+  }
+  .navbar-default .navbar-header .navbar-brand:hover,
+  .navbar-default .navbar-header .navbar-brand:focus {
+    color: white;
+  }
+  .navbar-default .nav > li > a,
+  .navbar-default .nav > li > a:focus {
+  
+  }
+  .navbar-default .nav > li > a:hover,
+  .navbar-default .nav > li > a:focus:hover {
+    color: white;
+  }
+  .nav.navbar-nav.navbar-left{
+    margin-left: 50px;
+  }
+}
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  background-position: center;
+  background-image: url('https://images.pexels.com/photos/685534/pexels-photo-685534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
+  text-align: center;
+  color: white;
+}
+header .header-content {
+  position: relative;
+  text-align: center;
+  padding: 100px 15px 100px;
+  width: 100%;
+}
+header .header-content .header-content-inner h1 {
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-size: 30px;
+  font-family: 'ProximaNova-Bold'
+}
+header .header-content .header-content-inner p {
+  color: white;
+  font-size: 20px;
+  margin-bottom: 50px;
+}
+@media (min-width: 768px) {
+  header {
+    min-height: 100%;
+    padding-bottom: 54%;
+  }
+  header .header-content {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    padding: 0 50px;
+  }
+  header .header-content .header-content-inner {
+    max-width: 1000px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  header .header-content .header-content-inner h1 {
+    font-size: 57px;
+    letter-spacing: -2.2pt;
+    line-height: 55px;
+  }
+  header .header-content .header-content-inner h1 span{
+    display: block;
+    font-family: 'ProximaNova-Regular';
+    font-size: 51px;
+  }
+  header .header-content .header-content-inner p {
+    font-size: 18px;
+    max-width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6px;
+  }
+}
+.btn-default {
+  color: #222222;
+  background-color: white;
+  border-color: white;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-default:hover,
+.btn-default:focus,
+.btn-default:active {
+  color: #222222;
+  background-color: #f2f2f2;
+  border-color: #ededed;
+}
+.btn-default:active {
+  background-image: none;
+}
+.btn-primary {
+  color: #37ecba;
+  background-color: transparent;
+  border-color: #37ecba;
+  -webkit-transition: all 0.35s;
+  -moz-transition: all 0.35s;
+  transition: all 0.35s;
+}
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+  color: #444;
+  background-color: #37ecba;
+  border-color: #37ecba;
+}
+.btn-primary:active {
+  background-image: none;
+}
+.btn {
+  font-size: 16px;
+  border-radius: 0px;
+  text-transform: uppercase;
+}
+.btn-xl {
+  padding: 15px 30px;
+}
+::-moz-selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+::selection {
+  color: white;
+  text-shadow: none;
+  background: #222222;
+}
+img::selection {
+  color: white;
+  background: transparent;
+}
+img::-moz-selection {
+  color: white;
+  background: transparent;
+}
+body {
+  webkit-tap-highlight-color: #222222;
+  background-color: #252525;
+}
+h2{
+  color: #323643;
+  font-size: 36px;
+  text-transform: uppercase;
+  position: relative;
+  letter-spacing: -1pt;
+  margin: 0px;
+}
+
+.work_day {
+  background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
+  background-size: cover;
+  padding: 40px 0px;
+}
+.work_day h2{
+  margin-bottom: 10px;
+}
+.work_day .item{
+  margin-top: 27px;
+}
+
+.work_day .item .date{
+  font-size: 18px;
+  font-family: 'ProximaNova-SemiBold';
+  color: black;
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+.work_day .item p{
+  font-size: 13px;
+  color: white;
+  letter-spacing: -0.1pt;
+  line-height: 16px;
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+.schedule{
+  background-color: #151515;
+  padding: 35px 0px;
+}
+.schedule h2{
+  color: white;
+  margin-bottom: 25px;
+}
+.schedule .buttons{
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+.schedule .btn{
+  font-size: 12px;
+  border-color: #837f7f;
+  color: #837f7f;
+  margin: 0px 6px;
+  padding: 10px 18px;
+}
+.schedule .btn:hover{
+  border-color: #37ecba;
+  color: #37ecba;
+  background-color: transparent;
+}
+.schedule h2:after{
+  background-color: white;
+}
+.table {
+  color: white;
+}
+.table>tbody>tr>td{
+  background-color: #282c37;
+  text-align: center;
+  vertical-align: middle;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-family: 'ProximaNova-SemiBold';
+}
+
+.table>tbody>tr:nth-child(2n)>td{
+  background-color: transparent;
+}
+.table>tbody>tr>td, .table>tbody>tr>th, .table>thead>tr>th{
+  border: 2px solid #151515;
+  text-align: center;
+}
+.table>tbody>tr:nth-child(2n)>th{
+  background-color: transparent;
+}
+.table>tbody>tr>th{
+  background-color: #282c37;
+  vertical-align: middle;
+  font-size: 10px;
+  font-family: 'ProximaNova-Bold';
+  letter-spacing: 0.5pt;
+}
+.table>tbody>tr>td span{
+  display: block;
+  font-size: 10px;
+  letter-spacing: 0.2pt;
+}
+.table>thead>tr>th{
+  font-size: 12px;
+  font-weight: normal;
+}
+
+.fitness-classes {
+  background-color: white;
+  margin-top: 0px;
+  padding: 35px 0px;
+}
+.fitness-classes h2{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 1.5em;
+  color: #282c37;
+  margin-bottom: 44px;
+}
+.fitness-classes .btn{
+  margin-top: 30px;
+  border-color: #151515;
+  color: black;
+  font-size: 18px;
+}
+
+.footer{
+  background-color: black;
+  padding: 30px 0px;
+}
+.footer .title{
+  overflow: hidden;
+  margin-bottom: 5px;
+}
+.footer .title h3{
+  display: inline-block;
+  vertical-align: middle;
+  border-bottom: 1px solid black;
+  padding-bottom: 5px;
+  color: white;
+  text-transform: uppercase;
+  font-family: 'proxima_nova_blblack';
+  font-size: 30px;
+}
+.footer .title h3 span{
+  display: block;
+  font-size: 18px;
+}
+.footer p{
+  color: lightgray;
+  font-size: 12px;
+  margin-bottom: 10px;
+}
+.footer span{
+  display: block;
+}
+
+.page{
+    background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
+    background-size: cover;
+  padding-top: 35px;
+}
+
+.page.about{
+     background-image: linear-gradient(to right, #37ecba 0%, #72afd3 100%);
+    background-size: cover;
+}
+.page .navbar-default{
+  background-color: rgb(27, 29, 38);
+}
+.page.about h4{
+  font-size: 43px;
+  font-family: 'ProximaNova-SemiBold';
+}
+.page.about h2{
+  margin-bottom: 40px;
+  color: black;
+}
+.page.about .about_cont{
+  padding: 35px 0px;
+}
+.page.about .buttons a{
+  font-size: 26px;
+  font-family: 'ProximaNova-SemiBold';
+  color: black;
+  margin: 0px 20px;
+}
+
+.page.page_schedule{
+  background-image: none;
+}
+.page.page_schedule .schedule h2{
+  color: white;
+}
+.page.page_schedule h2{
+  margin-bottom: 40px;
+  color: black;
+}
+.page.page_schedule .info{
+  color: black;
+}
+.page.page_schedule .info span{
+  display: block;
+  font-size: 14px;
+}
+.page.page_schedule .info span b{
+  font-family: 'ProximaNova-SemiBold';
+  font-weight: normal;
+}
+.page.page_schedule .info p{
+  font-size: 14px;
+  margin-top: 10px;
+}
+.page_schedule .about_event{
+  padding: 35px 0px;
+}
+.page_schedule h4{
+  font-size: 26px;
+  margin-top: 0px;
+}
+.page.page_schedule .about_event p{
+  margin-bottom: 10px;
+  margin-top: 5px;
+}
+
+.contact_page{
+  background:none;
+}
+.contact_page .contact{
+  padding: 15px 0px;
+}
+.contact_page .contact .image img{
+  width: 100%;
+}
+.contact_page .image .text-center{
+  position: absolute;
+  width: 100%;
+  top: 18%;
+}
+.contact_page .btn{
+  background-color: #37ecba;
+  color: black;
+  line-height: 8px;
+}
+.contact_page .btn:hover{
+  opacity: 0.7;
+}
+.contact_page form {
+  margin-top: 30px;
+}
+.contact_page .form-control{
+  border: none;
+  background: #f6f6f6;
+  border-radius: 0;
+}
+.contact_page form input{
+  height: 42px;
+  background-color: #fbfbfb;
+}
+.contact .container h2{
+  margin-top: 30px;
+}
+
+
+/*Media queriezzzz*/
+@media (max-width: 990px){
+  .footer{
+    text-align: center;
+  }
+  .navbar-default .navbar-header .navbar-toggle{
+    margin-right: 25px;
+  }
+  .schedule .btn{
+    margin-bottom: 15px;
+  }
+}
+@media (max-width: 1200px){
+  .footer .title h3{
+    font-size: 22px;
+  }
+  .footer .title h3 span{
+    font-size: 16px;
+  }
+  .container-fluid{
+    padding: 0px;
+  }
+  .navbar>.container-fluid .navbar-brand{
+    margin-left: 0px;
+  }
+}
+@media (max-width: 500px){
+  .schedule .btn{
+    margin-bottom: 10px;
+  }
+  header .header-content .header-content-inner h1, header .header-content .header-content-inner p{
+    text-shadow: 1px 1px 3px black;
+  }
+  .navbar-default .navbar-header .navbar-toggle{
+    margin-right: 25px;
+  }
+  .page.about .buttons a{
+    font-size: 18px;
+  }
+  .table>tbody>tr>td{
+    display: block;
+  }
+  .table>tbody>tr:nth-child(2n)>td{
+    background-color: rgba(40, 44, 55, 0.42);
+  }
+  .table>tbody>tr>td, .table>tbody>tr>th, .table>thead>tr>th{
+    border: 2px solid #151515;
+    text-align: center;
+  }
+  .table>tbody>tr:nth-child(2n)>th{
+    background-color: rgba(40, 44, 55, 0.42);
+  }
+}
+@media (min-width: 501px){
+  .table>tbody>tr>th.hidden-lg{
+    display: none !important;
+  }
+}
+@media (min-width: 501px) and (max-width: 650px){
+  .table>tbody>tr>td{
+    display: block;
+  }
+}
+
+.service-block {
+  padding: 10px 0;
+  margin-bottom: 30px;
+}
+
+.service-content {
+  text-align: center;
+}
+
+.outline {
+  background: #151515;
+}
+
+.outline p {
+  color: white;
+}
+
+.insideService {
+  padding: 40px;
+}
+
+.price-box {
+  background: #0f0f0f;
+  padding: 20px;
+  color: white;
+}
+
+.container-fluid {
+    padding-right: 0 !important;
+    padding-left: 0 !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+}
+
+video { 
+    width: 60%;
+    height: auto;
+}
