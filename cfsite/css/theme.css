@@ -18,6 +18,7 @@ a:hover,
 a:focus {
   color: #37ecba;
 }
+
 b{
   font-family: 'ProximaNova-Bold';
   font-weight: normal;
@@ -577,7 +578,7 @@ h2{
 }
 @media (min-width: 501px) and (max-width: 650px){
   .table>tbody>tr>td{
-    display: block;
+    display: block !important;
   }
 }
 
